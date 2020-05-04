@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test Pages (Posts by Shishimaru)</title><link>https://shishimaru.github.io/</link><description></description><atom:link href="https://shishimaru.github.io/authors/shishimaru.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:shishimaru@example.com"&gt;Shishimaru&lt;/a&gt; </copyright><lastBuildDate>Mon, 04 May 2020 16:39:11 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>First Post by Nikola</title><link>https://shishimaru.github.io/posts/first-post-by-nikola/</link><dc:creator>Shishimaru</dc:creator><description>&lt;div&gt;&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p&gt;これは**Nikola**のテストです&lt;/p&gt;
+&lt;p&gt;段落１のテスト
+あいうえお&lt;/p&gt;
+&lt;p&gt;段落２のテスト
+かきくけこ&lt;/p&gt;
+&lt;p&gt;サンプルコード
+&lt;code class="docutils literal"&gt;`
+&lt;span class="pre"&gt;print('hello&lt;/span&gt; world')
+`&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;箇条書きのテスト&lt;/p&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p&gt;項目１
+最初にUbuntuをセットアップする
+仮想マシン上で作業する&lt;/p&gt;
+&lt;img alt="/images/frontispiece.jpg" src="https://shishimaru.github.io/images/frontispiece.jpg"&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;項目２
+Webサーバをセットアップする&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;bulleted listのサンプル&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;p&gt;Server
++ Web Server
++ AE Server&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;Frontend&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;終わりに&lt;/p&gt;&lt;/div&gt;</description><guid>https://shishimaru.github.io/posts/first-post-by-nikola/</guid><pubDate>Mon, 04 May 2020 15:25:44 GMT</pubDate></item></channel></rss>

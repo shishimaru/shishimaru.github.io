@@ -1,0 +1,4 @@
+Sitemap: https://shishimaru.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: shishimaru.github.io
