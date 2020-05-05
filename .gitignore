@@ -1,4 +1,5 @@
-cache
-.doit.db
 __pycache__
+*.py[cod]
+.doit.db
+cache
 output
