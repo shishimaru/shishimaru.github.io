@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article#
+" lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="description" content="Nikolaのテスト">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>First Post by Nikola | Test Pages</title>
 <link href="../../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display:700,900" rel="stylesheet">
 <meta name="theme-color" content="#5670d4">
 <meta name="generator" content="Nikola (getnikola.com)">
 <link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../../rss.xml">
@@ -14,6 +14,7 @@
 <link rel="canonical" href="https://shishimaru.github.io/posts/first-post-by-nikola/">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]--><meta name="author" content="Shishimaru">
 <link rel="prev" href="../welcome-to-nikola/" title="Welcome to Nikola" type="text/html">
+<link rel="next" href="../trial-of-orgmode-%2B-nikola/" title="Trial of orgmode + Nikola" type="text/html">
 <meta property="og:site_name" content="Test Pages">
 <meta property="og:title" content="First Post by Nikola">
 <meta property="og:url" content="https://shishimaru.github.io/posts/first-post-by-nikola/">
@@ -25,41 +26,22 @@
 <body>
 <a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
-<!-- Header and menu bar -->
-<div class="container">
-      <header class="blog-header py-3"><div class="row nbb-header align-items-center">
-          <div class="col-md-3 col-xs-2 col-sm-2" style="width: auto;">
-            <button class="navbar-toggler navbar-light bg-light nbb-navbar-toggler" type="button" data-toggle="collapse" data-target=".bs-nav-collapsible" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse bs-nav-collapsible bootblog4-search-form-holder">
-                
-            </div>
-        </div>
-          <div class="col-md-6 col-xs-10 col-sm-10 bootblog4-brand" style="width: auto;">
-            <a class="navbar-brand blog-header-logo text-dark" href="https://shishimaru.github.io/">
+<!-- Menubar -->
+
+<nav class="navbar navbar-expand-md static-top mb-4
+navbar-dark bg-dark
+"><div class="container">
+<!-- This keeps the margins nice -->
+        <a class="navbar-brand" href="https://shishimaru.github.io/">
 
             <span id="blog-title">Test Pages</span>
         </a>
-          </div>
-            <div class="col-md-3 justify-content-end align-items-center bs-nav-collapsible collapse flex-collapse bootblog4-right-nav">
-            <nav class="navbar navbar-light bg-white"><ul class="navbar-nav bootblog4-right-nav">
-<li class="nav-item"><a href="https://shishimaru.github.io/ja/" rel="alternate" hreflang="ja" class="nav-link">日本語</a></li>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-                    
-                    
-    
-    <li class="nav-item">
-    <a href="index.rst" id="sourcelink" class="nav-link">Source</a>
-    </li>
-
-
-                    
-            </ul></nav>
-</div>
-    </div>
-</header><nav class="navbar navbar-expand-md navbar-light bg-white static-top"><div class="collapse navbar-collapse bs-nav-collapsible" id="bs-navbar">
-            <ul class="navbar-nav nav-fill d-flex w-100">
+        <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="navbar-nav mr-auto">
 <li class="nav-item">
 <a href="../../archive.html" class="nav-link">Archive</a>
                 </li>
@@ -72,12 +54,26 @@
                 
             </li>
 </ul>
+<ul class="navbar-nav navbar-right">
+<li>
+            </li>
+<li class="nav-item"><a href="https://shishimaru.github.io/ja/" rel="alternate" hreflang="ja" class="nav-link">日本語</a></li>
+
+                
+                    
+    
+    <li class="nav-item">
+    <a href="index.rst" id="sourcelink" class="nav-link">Source</a>
+    </li>
+
+
+                
+            </ul>
 </div>
 <!-- /.navbar-collapse -->
-</nav>
-</div>
-
-<div class="container" id="content" role="main">
+    </div>
+<!-- /.container -->
+</nav><!-- End of Menubar --><div class="container" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
         
@@ -101,9 +97,8 @@
 
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<ol class="arabic">
-<li>
-<p>これは**Nikola**のテストです</p>
+<div class="section" id="id1">
+<h2>概要</h2>
 <p>段落１のテスト
 あいうえお</p>
 <p>段落２のテスト
@@ -112,6 +107,30 @@
 <code class="docutils literal">`
 <span class="pre">print('hello</span> world')
 `</code></p>
+</div>
+<div class="section" id="web">
+<h2>Webサーバの仕組み</h2>
+<ol class="arabic">
+<li>
+<p>これはNikolaのテストです</p>
+<p>段落１のテスト
+あいうえお</p>
+<p>段落２のテスト
+かきくけこ</p>
+<p>サンプルコード</p>
+<p>This is a simple examples:</p>
+<pre class="literal-block">res = []
+for entry in entries:
+   title = entry['title']
+   pub = entry['published'] if entry.get('published', None) else entry.get('updated', None)
+   pub = pub[ : pub.find('T')] if pub.find('T') &gt;= 0 else pub
+   res.append([title, pub])
+
+res = sorted(res, key=lambda item: item[1], reverse=True)
+res = res[:int(max_num)]
+
+for item in res:
+   print(f'{item[1] if item[1] else ""} / {item[0]}')</pre>
 </li>
 <li>
 <p>箇条書きのテスト</p>
@@ -138,10 +157,14 @@ Webサーバをセットアップする</p></li>
 </ol>
 <p>終わりに</p>
 </div>
+</div>
     </div>
     <aside class="postpromonav"><nav><ul class="pager hidden-print">
 <li class="previous">
                 <a href="../welcome-to-nikola/" rel="prev" title="Welcome to Nikola">Previous post</a>
+            </li>
+            <li class="next">
+                <a href="../trial-of-orgmode-%2B-nikola/" rel="next" title="Trial of orgmode + Nikola">Next post</a>
             </li>
         </ul></nav></aside></article><!--End of body content--><footer id="footer">
             Contents © 2020         <a href="mailto:shishimaru@example.com">Shishimaru</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         

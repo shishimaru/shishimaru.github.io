@@ -1,0 +1,71 @@
+#+BEGIN_COMMENT
+.. title: Trial of orgmode + Nikola
+.. slug: trial-of-orgmode-+-nikola
+.. date: 2020-05-05 14:43:28 UTC+09:00
+.. tags: 
+.. category: 
+.. link: 
+.. description: 
+.. type: text
+
+#+END_COMMENT
+
+
+* 概要
+
+段落１のテスト
+
+段落２のテスト
+
+サンプルコード
+
+#+BEGIN_SRC python :results raw
+res = []
+for entry in entries:
+    title = entry['title']
+    pub = entry['published'] if entry.get('published', None) else entry.get('updated', None)
+    pub = pub[ : pub.find('T')] if pub.find('T') >= 0 else pub
+    res.append([title, pub])
+
+res = sorted(res, key=lambda item: item[1], reverse=True)
+res = res[:int(max_num)]
+
+for item in res:
+    print(f'{item[1] if item[1] else ""} / {item[0]}')
+
+#+END_SRC
+
+
+| Name  | Age |
+|-------+-----|
+| Bob   |  10 |
+| Alice |  20 |
+| John  |  30 |
+| XXX   |  40 |
+
+* ローカルのセットアップ
+最初にUbuntuをセットアップする
+仮想マシン上で作業する
+
+
+* 箇条書きのテスト
+** ローカルのセットアップ
+最初にUbuntuをセットアップする
+仮想マシン上で作業する
+
+[[img-url:/images/illus_001.jpg]]
+
+
+** Webサーバのセットアップ
+Apacheをインストールする。
+
+SSLを設定する。
+
+* bulleted listのサンプル
+
+- Server
+  + Web Server
+  + AE Server
+- Frontend
+
+* 終わりに

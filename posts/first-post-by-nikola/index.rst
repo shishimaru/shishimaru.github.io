@@ -8,19 +8,50 @@
 .. type: text
 
 
-1. これは**Nikola**のテストです
+概要
+-----
+
+段落１のテスト
+あいうえお
+
+
+段落２のテスト
+かきくけこ
+
+サンプルコード
+```
+print('hello world')
+```
+
+Webサーバの仕組み
+--------------------
+
+1. これはNikolaのテストです
 
    段落１のテスト
    あいうえお
-
 
    段落２のテスト
    かきくけこ
 
    サンプルコード
-   ```
-   print('hello world')
-   ```
+
+   This is a simple examples:
+   ::
+
+      res = []
+      for entry in entries:
+         title = entry['title']
+         pub = entry['published'] if entry.get('published', None) else entry.get('updated', None)
+         pub = pub[ : pub.find('T')] if pub.find('T') >= 0 else pub
+         res.append([title, pub])
+
+      res = sorted(res, key=lambda item: item[1], reverse=True)
+      res = res[:int(max_num)]
+
+      for item in res:
+         print(f'{item[1] if item[1] else ""} / {item[0]}')
+
 
 2. 箇条書きのテスト
 

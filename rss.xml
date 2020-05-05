@@ -1,6 +1,135 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test Pages</title><link>https://shishimaru.github.io/</link><description>This is a demo site for Nikola.</description><atom:link href="https://shishimaru.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:shishimaru@example.com"&gt;Shishimaru&lt;/a&gt; </copyright><lastBuildDate>Mon, 04 May 2020 16:39:11 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>First Post by Nikola</title><link>https://shishimaru.github.io/posts/first-post-by-nikola/</link><dc:creator>Shishimaru</dc:creator><description>&lt;div&gt;&lt;ol class="arabic"&gt;
-&lt;li&gt;&lt;p&gt;これは**Nikola**のテストです&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Test Pages</title><link>https://shishimaru.github.io/</link><description>This is a demo site for Nikola.</description><atom:link href="https://shishimaru.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2020 &lt;a href="mailto:shishimaru@example.com"&gt;Shishimaru&lt;/a&gt; </copyright><lastBuildDate>Tue, 05 May 2020 06:55:33 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>Trial of orgmode + Nikola</title><link>https://shishimaru.github.io/posts/trial-of-orgmode-%2B-nikola/</link><dc:creator>Shishimaru</dc:creator><description>&lt;div id="outline-container-org6aa77ef" class="outline-2"&gt;
+&lt;h2 id="org6aa77ef"&gt;概要&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org6aa77ef"&gt;
+&lt;p&gt;
+段落１のテスト
+&lt;/p&gt;
+
+&lt;p&gt;
+段落２のテスト
+&lt;/p&gt;
+
+&lt;p&gt;
+サンプルコード
+&lt;/p&gt;
+
+&lt;div class="highlight"&gt;&lt;pre&gt;&lt;span&gt;&lt;/span&gt;&lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;[]&lt;/span&gt;
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;entry&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;entries&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="n"&gt;title&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;entry&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'title'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;
+    &lt;span class="n"&gt;pub&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;entry&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="s1"&gt;'published'&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;entry&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'published'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="n"&gt;entry&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;get&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'updated'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="bp"&gt;None&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+    &lt;span class="n"&gt;pub&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;pub&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt; &lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;pub&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'T'&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt; &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;pub&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;find&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'T'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="o"&gt;&amp;gt;=&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt; &lt;span class="k"&gt;else&lt;/span&gt; &lt;span class="n"&gt;pub&lt;/span&gt;
+    &lt;span class="n"&gt;res&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;append&lt;/span&gt;&lt;span class="p"&gt;([&lt;/span&gt;&lt;span class="n"&gt;title&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;pub&lt;/span&gt;&lt;span class="p"&gt;])&lt;/span&gt;
+
+&lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="nb"&gt;sorted&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;res&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;key&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="k"&gt;lambda&lt;/span&gt; &lt;span class="n"&gt;item&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="n"&gt;item&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="mi"&gt;1&lt;/span&gt;&lt;span class="p"&gt;],&lt;/span&gt; &lt;span class="n"&gt;reverse&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="bp"&gt;True&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;span class="n"&gt;res&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;res&lt;/span&gt;&lt;span class="p"&gt;[:&lt;/span&gt;&lt;span class="nb"&gt;int&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;max_num&lt;/span&gt;&lt;span class="p"&gt;)]&lt;/span&gt;
+
+&lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;item&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;res&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+    &lt;span class="k"&gt;print&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;f&lt;/span&gt;&lt;span class="s1"&gt;'{item[1] if item[1] else ""} / {item[0]}'&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;
+
+
+&lt;table border="2" cellspacing="0" cellpadding="6" rules="groups" frame="hsides"&gt;
+
+
+&lt;colgroup&gt;
+&lt;col class="org-left"&gt;
+
+&lt;col class="org-right"&gt;
+&lt;/colgroup&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th scope="col" class="org-left"&gt;Name&lt;/th&gt;
+&lt;th scope="col" class="org-right"&gt;Age&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td class="org-left"&gt;Bob&lt;/td&gt;
+&lt;td class="org-right"&gt;10&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;Alice&lt;/td&gt;
+&lt;td class="org-right"&gt;20&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;John&lt;/td&gt;
+&lt;td class="org-right"&gt;30&lt;/td&gt;
+&lt;/tr&gt;
+
+&lt;tr&gt;
+&lt;td class="org-left"&gt;XXX&lt;/td&gt;
+&lt;td class="org-right"&gt;40&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-orgc75b501" class="outline-2"&gt;
+&lt;h2 id="orgc75b501"&gt;ローカルのセットアップ&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgc75b501"&gt;
+&lt;p&gt;
+最初にUbuntuをセットアップする
+仮想マシン上で作業する
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div id="outline-container-orgec01d49" class="outline-2"&gt;
+&lt;h2 id="orgec01d49"&gt;箇条書きのテスト&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-orgec01d49"&gt;
+&lt;/div&gt;
+&lt;div id="outline-container-org3436403" class="outline-3"&gt;
+&lt;h3 id="org3436403"&gt;ローカルのセットアップ&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org3436403"&gt;
+&lt;p&gt;
+最初にUbuntuをセットアップする
+仮想マシン上で作業する
+&lt;/p&gt;
+
+&lt;p&gt;
+&lt;img src="https://shishimaru.github.io/images/illus_001.jpg" alt="nil"&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div id="outline-container-org4c574e0" class="outline-3"&gt;
+&lt;h3 id="org4c574e0"&gt;Webサーバのセットアップ&lt;/h3&gt;
+&lt;div class="outline-text-3" id="text-org4c574e0"&gt;
+&lt;p&gt;
+Apacheをインストールする。
+&lt;/p&gt;
+
+&lt;p&gt;
+SSLを設定する。
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org41b1ddb" class="outline-2"&gt;
+&lt;h2 id="org41b1ddb"&gt;bulleted listのサンプル&lt;/h2&gt;
+&lt;div class="outline-text-2" id="text-org41b1ddb"&gt;
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Server
+&lt;ul class="org-ul"&gt;
+&lt;li&gt;Web Server&lt;/li&gt;
+&lt;li&gt;AE Server&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Frontend&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div id="outline-container-org2643505" class="outline-2"&gt;
+&lt;h2 id="org2643505"&gt;終わりに&lt;/h2&gt;
+&lt;/div&gt;</description><guid>https://shishimaru.github.io/posts/trial-of-orgmode-%2B-nikola/</guid><pubDate>Tue, 05 May 2020 05:43:28 GMT</pubDate></item><item><title>First Post by Nikola</title><link>https://shishimaru.github.io/posts/first-post-by-nikola/</link><dc:creator>Shishimaru</dc:creator><description>&lt;div&gt;&lt;div class="section" id="id1"&gt;
+&lt;h2&gt;概要&lt;/h2&gt;
 &lt;p&gt;段落１のテスト
 あいうえお&lt;/p&gt;
 &lt;p&gt;段落２のテスト
@@ -9,6 +138,29 @@
 &lt;code class="docutils literal"&gt;`
 &lt;span class="pre"&gt;print('hello&lt;/span&gt; world')
 `&lt;/code&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="web"&gt;
+&lt;h2&gt;Webサーバの仕組み&lt;/h2&gt;
+&lt;ol class="arabic"&gt;
+&lt;li&gt;&lt;p&gt;これはNikolaのテストです&lt;/p&gt;
+&lt;p&gt;段落１のテスト
+あいうえお&lt;/p&gt;
+&lt;p&gt;段落２のテスト
+かきくけこ&lt;/p&gt;
+&lt;p&gt;サンプルコード&lt;/p&gt;
+&lt;p&gt;This is a simple examples:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;res = []
+for entry in entries:
+   title = entry['title']
+   pub = entry['published'] if entry.get('published', None) else entry.get('updated', None)
+   pub = pub[ : pub.find('T')] if pub.find('T') &amp;gt;= 0 else pub
+   res.append([title, pub])
+
+res = sorted(res, key=lambda item: item[1], reverse=True)
+res = res[:int(max_num)]
+
+for item in res:
+   print(f'{item[1] if item[1] else ""} / {item[0]}')&lt;/pre&gt;
 &lt;/li&gt;
 &lt;li&gt;&lt;p&gt;箇条書きのテスト&lt;/p&gt;
 &lt;ol class="arabic"&gt;
@@ -30,7 +182,8 @@ Webサーバをセットアップする&lt;/p&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
-&lt;p&gt;終わりに&lt;/p&gt;&lt;/div&gt;</description><guid>https://shishimaru.github.io/posts/first-post-by-nikola/</guid><pubDate>Mon, 04 May 2020 15:25:44 GMT</pubDate></item><item><title>Welcome to Nikola</title><link>https://shishimaru.github.io/posts/welcome-to-nikola/</link><dc:creator>Roberto Alsina</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
+&lt;p&gt;終わりに&lt;/p&gt;
+&lt;/div&gt;&lt;/div&gt;</description><guid>https://shishimaru.github.io/posts/first-post-by-nikola/</guid><pubDate>Mon, 04 May 2020 15:25:44 GMT</pubDate></item><item><title>Welcome to Nikola</title><link>https://shishimaru.github.io/posts/welcome-to-nikola/</link><dc:creator>Roberto Alsina</dc:creator><description>&lt;div&gt;&lt;div class="figure"&gt;
 &lt;a class="reference external image-reference" href="https://farm1.staticflickr.com/138/352972944_4f9d568680_z.jpg?zz=1"&gt;&lt;img alt="Nikola Tesla Corner by nicwest, on Flickr" class="thumbnail" src="https://farm1.staticflickr.com/138/352972944_4f9d568680.jpg"&gt;&lt;/a&gt;
 &lt;/div&gt;
 &lt;p&gt;If you can see this in a web browser, it means you managed to install Nikola,

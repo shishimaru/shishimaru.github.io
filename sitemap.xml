@@ -19,7 +19,7 @@
  </url>
  <url>
   <loc>https://shishimaru.github.io/archive.html</loc>
-  <lastmod>2020-05-04T16:39:00Z</lastmod>
+  <lastmod>2020-05-05T05:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://shishimaru.github.io/authors/</loc>
@@ -83,7 +83,7 @@
  </url>
  <url>
   <loc>https://shishimaru.github.io/ja/archive.html</loc>
-  <lastmod>2020-05-04T16:39:00Z</lastmod>
+  <lastmod>2020-05-05T05:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://shishimaru.github.io/ja/authors/</loc>
@@ -209,6 +209,11 @@
   <xhtml:link rel="alternate" hreflang="en" href="https://shishimaru.github.io/posts/first-post-by-nikola/" />
  </url>
  <url>
+  <loc>https://shishimaru.github.io/ja/posts/trial-of-orgmode-%2B-nikola/</loc>
+  <lastmod>2020-05-05T05:46:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="en" href="https://shishimaru.github.io/posts/trial-of-orgmode-%2B-nikola/" />
+ </url>
+ <url>
   <loc>https://shishimaru.github.io/ja/posts/welcome-to-nikola/</loc>
   <lastmod>2020-05-04T16:39:00Z</lastmod>
   <xhtml:link rel="alternate" hreflang="en" href="https://shishimaru.github.io/posts/welcome-to-nikola/" />
@@ -219,7 +224,7 @@
  </url>
  <url>
   <loc>https://shishimaru.github.io/listings/hello.py.html</loc>
-  <lastmod>2020-05-04T16:39:00Z</lastmod>
+  <lastmod>2020-05-04T16:59:00Z</lastmod>
  </url>
  <url>
   <loc>https://shishimaru.github.io/pages/about-nikola/</loc>
@@ -280,6 +285,10 @@
  <url>
   <loc>https://shishimaru.github.io/posts/first-post-by-nikola/</loc>
   <lastmod>2020-05-04T16:39:00Z</lastmod>
+ </url>
+ <url>
+  <loc>https://shishimaru.github.io/posts/trial-of-orgmode-%2B-nikola/</loc>
+  <lastmod>2020-05-05T05:46:00Z</lastmod>
  </url>
  <url>
   <loc>https://shishimaru.github.io/posts/welcome-to-nikola/</loc>
